@@ -34,7 +34,7 @@ libraryDependencies += "com.github.scopt" %% "scopt" % "3.2.0"
 
 resolvers += "Linter Repository" at "https://hairyfotr.github.io/linteRepo/releases"
 
-addCompilerPlugin("com.foursquare.lint" %% "linter" % "0.1.8")
+//addCompilerPlugin("com.foursquare.lint" %% "linter" % "0.1.8")
 
 val sparkMode = sys.env.getOrElse("SPARK_MODE", "local[2]")
 
